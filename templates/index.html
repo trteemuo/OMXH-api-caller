@@ -1,0 +1,6 @@
+<html>
+    <h1>{{ value }}</h1>
+    {% for message in get_flashed_messages() %}
+    <p>{{ message }}</p>
+    {% endfor %}
+</html>
